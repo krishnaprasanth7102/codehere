@@ -1,0 +1,230 @@
+
+html,body{
+    font-family: 'Poppins', sans-serif;   
+}
+
+body{
+    background-image: url(./3506328.jpg);
+    background: linear-gradient(156deg, rgba(201,7,228,1) 0%, rgba(65,161,193,0.950199203187251) 100%, rgba(255,0,67,1) 100%);
+    background-size: cover;     
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+.brand-logo{
+    width: 10% !important;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+.max {
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  
+  .desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #about {
+    width: 
+    100vw;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  #about .desc {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .icon-me {
+    text-align: center;
+    font-size: 5em;
+    color: rgba(200, 100, 100, 0.7);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30);
+  }
+.nav-link{
+ font-weight: 600 ;
+}
+
+.nav-btn{
+    background-color: #000 !important;
+    color: #ffff;
+    font-size: 1rem;
+}
+
+.main-image{
+    width: 82%;
+}
+
+.main-heading{
+    line-height: 2.6rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.sub-heading{
+    line-height: 1.7rem;
+    
+}
+
+
+input{
+    border-radius: 1rem 0 0  1rem ;
+}
+.input-button{
+    border-radius: 0 1rem 1rem 0 ;
+    color: white;
+    font-weight: 600;
+    background-color: #ca1818 !important;
+
+}
+
+
+@media only screen and (max-width : 769px) {
+    .navbar-nav {
+        margin-left: 0 !important;
+    }
+    .brand-logo{
+        width: 15% !important;
+    }
+    .nav-item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .main-heading{
+        font-size: 2.5rem;
+    }
+    .sub-heading{
+        font-size: 1.1rem;
+        
+    }
+    input{
+        border-radius: 0.5rem 0 0  0.5rem ;
+    }
+    .input-button{
+        border-radius: 0 0.5rem 0.5rem 0 ;
+    
+    }
+}
+
+@media only screen and (max-width : 425px) {
+    .brand-logo{
+        width: 30% !important;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yaldevi', sans-serif;
+  }
+  span{
+    color: #fc5c65;
+    font-weight:900;
+   
+  }
+   
+  footer{
+    background: #f1f1f1;
+    padding: 90px 0;
+  }
+   
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+   
+  .logo{
+    width: 180px;
+  }
+   
+  .social-media{
+    margin: 20px 0;
+  }
+   
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+   
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+   
+  .right-col h1{
+    font-size: 26px;
+  }
+   
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+   
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+   
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+   
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+   
+  .btn:hover{
+    opacity: .7;
+  }
+   
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
